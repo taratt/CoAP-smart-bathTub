@@ -10,8 +10,8 @@
 #define BLED D0
 
 MFRC522 mfrc522(D4, D3);
-const char* ssid     = "home";
-const char* password = "34275767";
+const char* ssid     = "YOUR SSID";
+const char* password = "YOUR PASSWORD";
 int temperature=0;
 int depth =0;
 
